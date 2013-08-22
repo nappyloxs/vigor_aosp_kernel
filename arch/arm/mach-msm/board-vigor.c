@@ -1657,7 +1657,7 @@ static struct android_usb_platform_data android_usb_pdata = {
 #ifdef CONFIG_USB_GADGET_VERIZON_PRODUCT_ID
 	.match = vigor_usb_product_id_match,
 #endif
-	//.nluns = 2,
+	.nluns = 2,
 };
 
 static struct platform_device android_usb_device = {
